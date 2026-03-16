@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recruitment-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: recruitment-app
+  template:
+    metadata:
+      labels:
+        app: recruitment-app
+    spec:
+      containers:
+      - name: recruitment-app
+        image: norah/recruitment-app:latest
+        ports:
+        - containerPort: 3000
+
+        envFrom:
+        - configMapRef:
+            name: recruitment-app-config
+        - secretRef:
+            name: recruitment-app-secret
