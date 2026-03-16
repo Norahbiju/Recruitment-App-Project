@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: recruitment-app-config
+data:
+  NODE_ENV: "production"
+  PORT: "3000"
+  DB_NAME: "hr_system"
+  LOG_LEVEL: "info"
+  DEFAULT_ADMIN_ID: "project"
