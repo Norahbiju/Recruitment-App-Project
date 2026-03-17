@@ -10,5 +10,5 @@ data:
   DEFAULT_ADMIN_ID: "project"
   DEFAULT_ADMIN_PASSWORD: "project123"
   MONGO_URI: "mongodb://rootuser:rootpassword@mongodb-service:27017/hr_system?authSource=admin"
-  MONGO_USERNAME: "rootuser"
-  MONGO_PASSWORD: "rootpassword"
+  MONGO_USERNAME: "admin"
+  MONGO_PASSWORD: "password123"
