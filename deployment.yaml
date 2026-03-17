@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: recruitment-app
-        image: norah/recruitment-app:latest
+        image: norahbiju/recruitment-app:latest
         ports:
         - containerPort: 3000
 
