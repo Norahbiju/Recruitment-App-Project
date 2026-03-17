@@ -8,3 +8,7 @@ data:
   DB_NAME: "hr_system"
   LOG_LEVEL: "info"
   DEFAULT_ADMIN_ID: "project"
+  DEFAULT_ADMIN_PASSWORD: "project123"
+  MONGO_URI: "mongodb://rootuser:rootpassword@mongodb-service:27017/hr_system"
+  MONGO_USERNAME: "rootuser"
+  MONGO_PASSWORD: "rootpassword"
